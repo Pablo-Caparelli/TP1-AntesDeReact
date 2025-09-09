@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Trabajo Práctico 1 - Pablo Caparelli</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="fondo">
+        <h1 id="inicio" class="titulo-principal">
+          Bienvenidos a mi Sitio Web - Título principal H1
+        </h1>
+      </div>
+    </header>
+    <main>
+      <article id="servicios" class="article">
+        <h2 class="subtitulo">Servicios</h2>
+        <p>
+          <strong>Ser productivo</strong> significa <em>ser más eficiente</em>,
+          no trabajar más.
+        </p>
+
+        <img
+          class="imagen2"
+          src="./public/imagen2.jpg"
+          alt="imagen de hombre trabajando"
+        />
+
+        <ol>
+          <li>Establece objetivos claros cada día.</li>
+          <li>Elimina distracciones y enfócate.</li>
+          <li>Revisa tus progresos al final de la jornada.</li>
+        </ol>
+      </article>
+
+      <section>
+        <div class="container">
+          <h1 class="titulo-formulario">Contáctanos</h1>
+
+          <form id="contacto" class="formulario">
+            <div>
+              <label for="nombre">Nombre:</label>
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                placeholder="Ingresa tu nombre"
+              />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Ingresa tu Email"
+              />
+            </div>
+
+            <div>
+              <select name="" id="">
+                <option value="">Hombre</option>
+                <option value="">Mujer</option>
+                <option value="">Menor de edad</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="nombre">Mensaje:</label>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                placeholder="Deja tu mensaje"
+              ></textarea>
+            </div>
+
+            <button class="btn">Contactar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Sitio desarrollado por Pablo Caparelli <small>&copy; 2025</small>
+      <a href="#inicio" class="flecha-arriba">⬆</a>
+    </footer>
+  </body>
+</html>
