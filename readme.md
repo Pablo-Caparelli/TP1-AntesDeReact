@@ -17,6 +17,20 @@ El sitio incluye:
 
 ---
 
+## 🖼️ Capturas de pantalla
+
+### Página principal
+
+![Página principal](./public/PaginaPrincipal.jpeg)
+
+### Sección de servicios
+
+![Sección de servicios](./public/Servicios.jpeg)
+
+### Formulario de contacto
+
+![Formulario de contacto](./public/Contacto.jpeg)
+
 ## 🎨 Estilos y diseño
 
 - Uso de **variables CSS** (`:root`) para colores y tipografías principales.
