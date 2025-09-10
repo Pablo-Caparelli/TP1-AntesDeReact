@@ -108,7 +108,7 @@ section {
 }
 
 .container {
-  width: 100%;
+  width: 70%;
   padding: 2rem;
   background: #f9f9f9;
   border-radius: 12px;
@@ -178,13 +178,17 @@ footer {
   color: var(--color-secundario);
   padding: 30px 0;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem; /* más razonable para texto */
+}
+
+footer small {
+  font-size: 1.2rem; /* más chico que el texto general */
+  margin-right: 1rem; /* espacio entre el texto y la flecha */
 }
 
 .flecha-arriba {
   display: inline-block;
-  margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration: none;
   color: white;
   transition: transform 0.3s, color 0.3s;

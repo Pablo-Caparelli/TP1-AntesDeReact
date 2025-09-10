@@ -52,3 +52,4 @@ El sitio incluye:
 
 Proyecto desarrollado por **Pablo Caparelli**  
 📅 Año: **2025**
+Diplomatura en Professional Full-Stack Developer
